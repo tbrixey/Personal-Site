@@ -1,20 +1,44 @@
-html, body {
-	height: 100%;
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	background: #FAFAFA;
-	font-family: 'Helvetica Neue', arial, sans-serif;
-	font-weight: 400;
-	color: #444;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: "Blogger Sans";
+    font-weight: 400;
+    src: url("../assets/fonts/BloggerSans.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Blogger";
+    font-weight: 500;
+    src: url("../assets/fonts/BloggerSans-Medium.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Blogger";
+    font-weight: 700;
+    src: url("../assets/fonts/BloggerSans-Bold.ttf") format("ttf");
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #eeeeee;
+    font-family: "Blogger Sans", arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+    font-size: 14px;
 }
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #app {
-	height: 100%;
+    height: 100%;
 }
