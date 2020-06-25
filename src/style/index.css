@@ -24,11 +24,16 @@ body {
     margin: 0;
     background: #eeeeee;
     font-family: "Blogger Sans", arial, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     color: #333;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: #147efb;
+    text-decoration: none;
 }
 
 p {
