@@ -5,26 +5,27 @@ import { Link } from "preact-router";
 const Home: FunctionalComponent = () => {
     return (
         <div class={style.container}>
-            <h1>My name is Trevor</h1>
-            <h2>Full-Stack Developer and aspiring designer ✨</h2>
-            <h4 class={style.section}>
-                Check out my portfolio <Link href="/portfolio">here</Link>
-            </h4>
+            <h1>Hey, my name is Trevor Brixey.</h1>
+            <h2>I'm a Full-Stack React Developer.</h2>
+            <div>Among many other experiments and ventures.</div>
             <div class={style.section}>
-                I currently work at a small agency called{" "}
-                <a href={"https://crema.us"}>Crema</a> while also picking up
-                freelance jobs.
+                <div>
+                    You can find my general portfolio{" "}
+                    <Link href="/portfolio">here.</Link>
+                </div>
             </div>
-            <div class={style.longSection}>
-                I wanted to experiment with{" "}
-                <a href={"https://preactjs.com/"}>Preact</a> and Typescript so I
-                thought I might as well build my personal site using it.
-                I&apos;ve never had some fancy site because let&apos;s be
-                honest, you are here to check out my other work. Regardless,
-                this site is forever a WIP so come back and check it out from
-                time to time.
+
+            <div class={style.nextSection}>
+                <h3>What I'm working on next</h3>
+                <li>A blog (Dev related? cooking?)</li>
+                <li>Full Stack e-commerce site (learning)</li>
+                <li>
+                    I like the idea of starting a brand and selling merch around
+                    it
+                </li>
             </div>
-            <div class={style.section}>Thanks for stopping by 🤙</div>
+
+            <div class={style.footer}>Thanks for stopping by 🤙</div>
         </div>
     );
 };

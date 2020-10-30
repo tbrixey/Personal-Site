@@ -7,6 +7,7 @@
     background: #d6ffe0;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     z-index: 50;
+    text-align: right;
 }
 
 .header h1 {

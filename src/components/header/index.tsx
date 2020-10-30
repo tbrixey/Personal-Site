@@ -13,6 +13,9 @@ const Header: FunctionalComponent = () => {
                 <Link activeClassName={style.active} href="/portfolio">
                     Portfolio
                 </Link>
+                <Link activeClassName={style.active} href="/contact">
+                    Contact Me
+                </Link>
             </nav>
         </header>
     );
