@@ -25,7 +25,10 @@ const Home: FunctionalComponent = () => {
                 </li>
             </div>
 
-            <div class={style.footer}>Thanks for stopping by 🤙</div>
+            <div class={style.footer}>
+                <p>Last Update: October 29th, 2020</p>
+                <p>Thanks for stopping by 🤙</p>
+            </div>
         </div>
     );
 };
