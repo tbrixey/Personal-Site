@@ -5,7 +5,13 @@ import { Link } from "preact-router";
 const Contact: FunctionalComponent = () => {
     return (
         <div class={style.container}>
-            <div style={{ margin: "16px 0", fontWeight: 700 }}>
+            <div
+                style={{
+                    margin: "16px 8px",
+                    fontWeight: 700,
+                    textAlign: "center"
+                }}
+            >
                 Hit me up if you want to chat about anything!
             </div>
             <div class={style.contactList}>

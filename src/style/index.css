@@ -5,13 +5,13 @@
 }
 
 @font-face {
-    font-family: "Blogger";
+    font-family: "Blogger Sans";
     font-weight: 500;
     src: url("../assets/fonts/BloggerSans-Medium.ttf") format("ttf");
 }
 
 @font-face {
-    font-family: "Blogger";
+    font-family: "Blogger Sans";
     font-weight: 700;
     src: url("../assets/fonts/BloggerSans-Bold.ttf") format("ttf");
 }
@@ -38,6 +38,7 @@ a {
 
 p {
     font-size: 14px;
+    margin: 4px;
 }
 
 * {
