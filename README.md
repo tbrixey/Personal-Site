@@ -1,17 +1,22 @@
-# personal-site
+# personal-site-v2
 
 ## CLI Commands
-*   `npm install`: Installs dependencies
 
-*   `npm run dev`: Run a development, HMR server
+``` bash
+# install dependencies
+npm install
 
-*   `npm run serve`: Run a production-like server
+# serve with hot reload at localhost:8080
+npm run dev
 
-*   `npm run build`: Production-ready build
+# build for production with minification
+npm run build
 
-*   `npm run lint`: Pass TypeScript files using TSLint
+# test the production build locally
+npm run serve
 
-*   `npm run test`: Run Jest and [`preact-render-spy`](https://github.com/mzgoddard/preact-render-spy) for your tests
-
+# run tests with jest and enzyme
+npm run test
+```
 
 For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
