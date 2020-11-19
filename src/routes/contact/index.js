@@ -18,7 +18,6 @@ const Contact = () => {
           e-mail:{" "}
           <a href="mailto:contact@trevorbrixey.com">contact@trevorbrixey.com</a>
         </li>
-        <li>Discord: Cast_Iron_Homie#0001</li>
         <li>Or just send me a DM on twitter</li>
       </div>
       <div style={{ textAlign: "center", marginTop: 24 }}>

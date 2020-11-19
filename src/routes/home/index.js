@@ -16,13 +16,18 @@ const Home = () => {
 
       <div class={style.nextSection}>
         <h3>What I'm working on next</h3>
+        <li>
+          <a href="https://vybinnetwork.com" target="_blank" rel="noreferrer">
+            Vybin Network
+          </a>
+        </li>
         <li>A blog (Dev related? cooking?)</li>
-        <li>Full Stack e-commerce site (learning)</li>
-        <li>I like the idea of starting a brand and selling merch around it</li>
+        <li>Full Stack e-commerce site (learning design)</li>
+        <li>Streaming on Twitch</li>
       </div>
 
       <div class={style.footer}>
-        <p>Last Update: October 29th, 2020</p>
+        <p>Last Update: November 19th, 2020</p>
         <p>Thanks for stopping by 🤙</p>
       </div>
     </div>

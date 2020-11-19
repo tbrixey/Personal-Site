@@ -1,39 +1,44 @@
 .container {
-    min-height: 90%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  min-height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .section {
-    width: 350px;
-    word-break: break-word;
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
+  width: 350px;
+  word-break: break-word;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
 }
 
 .techList {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .techList li {
-    list-style-type: none;
-    background: #d6f5ff;
-    border-radius: 16px;
-    padding: 0 8px;
-    display: flex;
-    align-items: center;
-    height: 34px;
-    box-shadow: 0px 2px 2px 1px #a9a9a9e3;
-    margin: 8px;
+  list-style-type: none;
+  background: #2ec4b6;
+  border-radius: 16px;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  height: 34px;
+  box-shadow: 0px 2px 2px 1px #000;
+  color: #f6f7f8;
+  margin: 8px;
+}
+
+.techList li p {
+  font-size: 16px;
 }
 
 @media only screen and (min-width: 900px) {
-    .section {
-        width: 30%;
-    }
+  .section {
+    width: 30%;
+  }
 }
