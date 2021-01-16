@@ -21,7 +21,7 @@ const Contact = () => {
         <li>Or just send me a DM on twitter</li>
       </div>
       <div style={{ textAlign: "center", marginTop: 24 }}>
-        <a href="https://twitter.com/trevorbrixey">Twitter</a>{" "}
+        <a href="https://twitter.com/CastIronHomie">Twitter</a>{" "}
         <a href="https://www.twitch.tv/castironhomie">Twitch</a>{" "}
         <a href="https://www.linkedin.com/in/trevor-brixey-98ba599a/">
           LinkedIn

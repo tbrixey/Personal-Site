@@ -1,4 +1,5 @@
 import { h } from "preact";
+import { Link } from "preact-router";
 import * as style from "./style.css";
 
 const Portfolio = () => {
@@ -30,7 +31,7 @@ const Portfolio = () => {
           </p>
           <ul class={style.techList}>
             <li>
-              <p>Preact</p>
+              <p>React</p>
             </li>
             <li>
               <p>Express</p>
@@ -47,21 +48,12 @@ const Portfolio = () => {
       <div class={style.section}>
         <h2 style={{ marginBottom: "0px" }}>Professional</h2>
         <div>
-          <h4>Raising A Village</h4>
+          <h4>You could be here!</h4>
           <div>
-            Built for a non-profit organization that just needed something
-            simple that people could go to.
+            Got an idea and want a quick prototype? Want a static webpage for
+            your new or existing business? Send me a{" "}
+            <Link href="/contact">message</Link>.
           </div>
-          <p>
-            <a href={"https://raiseavillage.org/"}>
-              https://raiseavillage.org/
-            </a>
-          </p>
-          <ul class={style.techList}>
-            <li>
-              <p>Wordpress</p>
-            </li>
-          </ul>
         </div>
       </div>
     </div>

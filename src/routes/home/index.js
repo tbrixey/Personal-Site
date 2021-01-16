@@ -21,13 +21,13 @@ const Home = () => {
             Vybin Network
           </a>
         </li>
-        <li>A blog (Dev related? cooking?)</li>
+        <li>Blog is live! Link is in the header</li>
         <li>Full Stack e-commerce site (learning design)</li>
         <li>Streaming on Twitch</li>
       </div>
 
       <div class={style.footer}>
-        <p>Last Update: November 19th, 2020</p>
+        <p>Last Update: January 12th, 2021</p>
         <p>Thanks for stopping by 🤙</p>
       </div>
     </div>

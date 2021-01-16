@@ -13,6 +13,14 @@ const Header = () => {
         <Link activeClassName={style.active} href="/portfolio">
           Portfolio
         </Link>
+        <a
+          activeClassName={style.active}
+          href="https://blog-trevorbrixey.web.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Blog
+        </a>
         <Link activeClassName={style.active} href="/contact">
           Contact Me
         </Link>
