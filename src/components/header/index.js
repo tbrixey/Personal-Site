@@ -15,7 +15,7 @@ const Header = () => {
         </Link>
         <a
           activeClassName={style.active}
-          href="https://blog-trevorbrixey.web.app/"
+          href="https://blog.trevorbrixey.com/"
           target="_blank"
           rel="noreferrer"
         >
