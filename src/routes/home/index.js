@@ -22,12 +22,21 @@ const Home = () => {
           </a>
         </li>
         <li>Blog is live! Link is in the header</li>
-        <li>Full Stack e-commerce site (learning design)</li>
+        <li>
+          Building an electon.js app.{" "}
+          <a
+            href="https://video-tagger-rx.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Video Tagger Rx
+          </a>
+        </li>
         <li>Streaming on Twitch</li>
       </div>
 
       <div class={style.footer}>
-        <p>Last Update: January 12th, 2021</p>
+        <p>Last Update: March 3rd, 2021</p>
         <p>Thanks for stopping by 🤙</p>
       </div>
     </div>
