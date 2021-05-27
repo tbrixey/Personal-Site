@@ -28,7 +28,7 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: #01090f;
+  background: #264653;
   font-family: "Blogger Sans", arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -44,6 +44,7 @@ a {
 
 p {
   font-size: 14px;
+  letter-spacing: 0.4px;
 }
 
 * {
